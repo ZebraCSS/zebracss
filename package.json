@@ -1,7 +1,7 @@
 {
     "name": "zebracss",
     "version": "0.0.1",
-    "description": "LESS/CSS modular platform for web applications",
+    "description": "Component-based framework for styling web applications",
     "style": "index.less",
     "directories": {
         "doc": "doc"
