@@ -30,5 +30,5 @@ npm install
 Generate build
 
 ```
-npm build
+npm run build
 ```
