@@ -38,11 +38,11 @@ Utilities exist because certain CSS properties and patterns are used frequently.
 
 
 ```html
-<div class="u-clearfix">
+<div class="u-cf">
   <p class="u-textTruncate">{$text}</p>
-  <img class="u-pullLeft" src="{$src}" alt="">
-  <img class="u-pullLeft" src="{$src}" alt="">
-  <img class="u-pullLeft" src="{$src}" alt="">
+  <img class="u-floatLeft" src="{$src}" alt="">
+  <img class="u-floatLeft" src="{$src}" alt="">
+  <img class="u-floatLeft" src="{$src}" alt="">
 </div>
 ```
 
@@ -53,12 +53,12 @@ Syntax: `u-<utilityName>`
 Utilities must use a camel case name, prefixed with a `u` namespace. What follows is an example of how various utilities can be used to create a simple structure within a component.
 
 ```html
-<div class="u-clearfix">
-  <a class="u-pullLeft" href="{$url}">
+<div class="u-cf">
+  <a class="u-floatLeft" href="{$url}">
     <img class="u-block" src="{$src}" alt="">
   </a>
   <p class="u-sizeFill u-textBreak">
-    â€¦
+    ...
   </p>
 </div>
 ```
@@ -139,14 +139,10 @@ JS can add/remove these classes. This means that the same state names can be use
 
 ## Variables
 
-Syntax: `<property>-<value>[--componentName]`
-
-Variable names in our CSS are also strictly structured. This syntax provides strong associations between property, use, and component.
-
-The following variable definition is a color property, with the value grayLight, for use with the highlightMenu component.
+Syntax: `[ComponentName]-<property>-<value>`
 
 ```CSS
-@color-grayLight--highlightMenu: rgb(51, 51, 50);
+@HighlightMenu-color-grayLight: rgb(51, 51, 50);
 ```
 
 ### z-index scale
@@ -188,7 +184,7 @@ ex:
 @fontSize-jumbo
 ```
 
-See [Mozilla Developer Network â€” font-weight](https://developer.mozilla.org/en/CSS/font-weight) for further reading.
+See [Mozilla Developer Network font-weight](https://developer.mozilla.org/en/CSS/font-weight) for further reading.
 
 
 ### Line Height

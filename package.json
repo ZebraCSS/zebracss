@@ -3,9 +3,6 @@
     "version": "0.0.1",
     "description": "Component-based framework for styling web applications",
     "style": "index.less",
-    "directories": {
-        "doc": "doc"
-    },
     "scripts": {
         "setup": "npm install"
     },
@@ -21,7 +18,14 @@
         "zebracss",
         "style"
     ],
-    "author": "Julia Rechkunova",
+    "author": {
+        "name": "Julia Rechkunova",
+        "email": "julia.rechkunova@gmail.com"
+    },
+    "directories": {
+        "lib": "./lib",
+        "doc": "./doc"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/ZebraCSS/zebracss/issues"
