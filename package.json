@@ -1,0 +1,30 @@
+{
+    "name": "zebracss",
+    "version": "0.0.1",
+    "description": "LESS/CSS modular platform for web applications",
+    "style": "index.less",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "setup": "npm install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZebraCSS/zebracss.git"
+    },
+    "keywords": [
+        "css",
+        "less",
+        "components",
+        "css-components",
+        "zebracss",
+        "style"
+    ],
+    "author": "Julia Rechkunova",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ZebraCSS/zebracss/issues"
+    },
+    "homepage": "https://github.com/ZebraCSS/zebracss"
+}
