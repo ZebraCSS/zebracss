@@ -4,7 +4,8 @@
     "description": "Component-based framework for styling web applications",
     "style": "index.less",
     "scripts": {
-        "setup": "npm install"
+        "setup": "npm install",
+        "build": "gulp build"
     },
     "repository": {
         "type": "git",
@@ -26,9 +27,19 @@
         "lib": "./lib",
         "doc": "./doc"
     },
+    "dependencies": {
+        "zebracss-base": "git://github.com/ZebraCSS/zebracss-base.git#master",
+        "zebracss-utils": "git://github.com/ZebraCSS/zebracss-utils.git#master",
+        "zebracss-components": "git://github.com/ZebraCSS/zebracss-components.git#master"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/ZebraCSS/zebracss/issues"
     },
-    "homepage": "https://github.com/ZebraCSS/zebracss"
+    "homepage": "https://github.com/ZebraCSS/zebracss",
+    "devDependencies": {
+        "gulp": "^3.8.8",
+        "gulp-less": "^1.3.6",
+        "gulp-rename": "^1.2.0"
+    }
 }

@@ -13,3 +13,22 @@ ZebraCSS uses a strict subset of [LESS](http://lesscss.org/) for style generatio
   * [Base styles](docs/tools.md#base-styles)
   * [Utilities](docs/tools.md#utilities)
   * [Components](docs/tools.md#components)
+
+Get ZebraCSS
+
+```
+npm install zebracss --save
+```
+
+
+Or develop
+
+```
+npm install
+```
+
+Generate build
+
+```
+npm build
+```
