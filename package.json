@@ -1,45 +1,36 @@
 {
-    "name": "zebracss",
-    "version": "0.0.1",
-    "description": "Component-based framework for styling web applications",
-    "style": "index.less",
-    "scripts": {
-        "setup": "npm install",
-        "build": "gulp build"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ZebraCSS/zebracss.git"
-    },
-    "keywords": [
-        "css",
-        "less",
-        "components",
-        "css-components",
-        "zebracss",
-        "style"
-    ],
-    "author": {
-        "name": "Julia Rechkunova",
-        "email": "julia.rechkunova@gmail.com"
-    },
-    "directories": {
-        "lib": "./lib",
-        "doc": "./doc"
-    },
-    "dependencies": {
-        "zebracss-base": "git://github.com/ZebraCSS/zebracss-base.git#master",
-        "zebracss-utils": "git://github.com/ZebraCSS/zebracss-utils.git#master",
-        "zebracss-components": "git://github.com/ZebraCSS/zebracss-components.git#master"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/ZebraCSS/zebracss/issues"
-    },
-    "homepage": "https://github.com/ZebraCSS/zebracss",
-    "devDependencies": {
-        "gulp": "^3.8.8",
-        "gulp-less": "^1.3.6",
-        "gulp-rename": "^1.2.0"
-    }
+	"name": "zebracss",
+	"version": "0.0.1",
+	"description": "Component-based framework for styling web applications",
+	"style": "index.less",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ZebraCSS/zebracss.git"
+	},
+	"keywords": [
+		"css",
+		"less",
+		"components",
+		"css-components",
+		"zebracss",
+		"style"
+	],
+	"author": {
+		"name": "Julia Rechkunova",
+		"email": "julia.rechkunova@gmail.com"
+	},
+	"directories": {
+		"lib": "./lib",
+		"doc": "./doc"
+	},
+	"dependencies": {
+		"zebracss-base": "git://github.com/ZebraCSS/zebracss-base.git#master",
+		"zebracss-layout": "git://github.com/ZebraCSS/zebracss-layout.git#master",
+		"zebracss-utils": "git://github.com/ZebraCSS/zebracss-utils.git#master"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ZebraCSS/zebracss/issues"
+	},
+	"homepage": "https://github.com/ZebraCSS/zebracss"
 }
